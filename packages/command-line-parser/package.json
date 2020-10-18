@@ -1,0 +1,13 @@
+{
+  "name": "@alexkunin/angular-server-command-line-parser",
+  "version": "0.0.0",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.1",
+    "jasmine-core": "^3.6.0"
+  }
+}

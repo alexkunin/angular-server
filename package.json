@@ -1,0 +1,19 @@
+{
+  "name": "@alexkunin/angular-server",
+  "version": "0.0.0",
+  "license": "ISC",
+  "repository": "github:alexkunin/angular-server",
+  "bin": {
+    "angular-server": "bin/angular-server.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@alexkunin/angular-server-command-line-parser": "0.0.0",
+    "@alexkunin/angular-server-middleware": "0.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
